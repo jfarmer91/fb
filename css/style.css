@@ -1,0 +1,70 @@
+html, body {
+  height:100%;
+  position: flex;
+}
+/*overlay start*/
+#initial-overlay {
+  display:block;
+  color: #fff;
+  background-color: #000;
+  height: 100vh;
+  z-index: 1000;
+}
+#logo-overlay {
+  position: fixed;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+}
+/*overlay end*/
+
+#body-main {
+  display:none;
+  color: #000;
+  background-color: #fff;
+  /*height: 100vh;*/
+  z-index: 1;
+}
+
+
+#pouring-soon {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  top: 80%;
+  left: calc((100% - 157px)/2)
+}
+
+.logo {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.logo-text-big {
+  font-size: 42px;
+}
+
+.logo-text-small {
+  font-size: 20px;
+}
+
+#logo-overlay {
+  position: fixed;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+}
+
+#logo-main {
+  position: absolute;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+  z-index: 2;
+}
+
+
+/* Gradient color1 - color2 - color1 */
+hr.style-one {
+    border: 0;
+    height: 1.25px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
