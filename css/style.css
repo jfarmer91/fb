@@ -8,6 +8,10 @@ input {
   color: #000;
 }
 
+#header h2 {
+  display: none;
+}
+
 /*overlay start*/
 #initial-overlay {
   display:block;
