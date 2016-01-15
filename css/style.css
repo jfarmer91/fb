@@ -3,6 +3,11 @@ html, body {
   position: flex;
   background-color: #000;
 }
+
+input {
+  color: #000;
+}
+
 /*overlay start*/
 #initial-overlay {
   display:block;
