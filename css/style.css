@@ -8,8 +8,11 @@ input {
   color: #000;
 }
 
-#header h2 {
+/*#header h2 {
   display: none;
+}*/
+.subscribe-desc {
+  color: #b2b2b2;
 }
 
 /*overlay start*/
