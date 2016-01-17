@@ -5,10 +5,16 @@ html, body {
   font-family: 'Montserrat';
 }
 
-div .fb-like {
-  position:absolute;
-  bottom: 60px;
-  left: calc((100% - 95px)/2);
+#facebook-icon {
+  position: absolute;
+  bottom: 65px;
+  left: calc((100%/2) - 70px);
+}
+
+#instagram-icon {
+  position: absolute;
+  bottom: 65px;
+  right: calc((100%/2) - 70px);
 }
 
 .form-control {
@@ -49,9 +55,6 @@ input {
   /*margin:auto;*/
 }
 
-/*#header h2 {
-  display: none;
-}*/
 .subscribe-desc {
   color: #b2b2b2;
 }
@@ -83,9 +86,9 @@ input {
 #pouring-soon {
   position:absolute;
   font-family: 'Montserrat';
-  font-size: 24px;
-  top: 60%;
-  left: calc((100% - 157px)/2)
+  font-size: 18px;
+  top: 52%;
+  left: calc((100% - 120px)/2)
 }
 
 .logo {
@@ -115,6 +118,13 @@ hr.style-one {
     height: 1.25px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+@media (min-width: 380px) {
+  #pouring-soon {
+    font-size: 24px;
+    left: calc((100% - 160px)/2)
+  }
 }
 
 @media(min-width: 415px) {
