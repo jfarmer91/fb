@@ -31,7 +31,7 @@ input {
   color: #000;
 }
 
-#Field1 {
+#Field2 {
   display:inline-block;
   padding: 6px 10px;
   border-radius: 4px;
@@ -144,7 +144,7 @@ hr.style-one {
     left: calc((100% - 600px)/2);
   }
 
-  #Field1 {
+  #Field2 {
     width: 275px;
   }
 
