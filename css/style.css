@@ -5,6 +5,12 @@ html, body {
   font-family: 'Montserrat';
 }
 
+div .fb-like {
+  position:absolute;
+  bottom: 60px;
+  left: calc((100% - 95px)/2);
+}
+
 form.wufoo {
   position: absolute;
   bottom: 10px;
