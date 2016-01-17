@@ -7,14 +7,16 @@ html, body {
 
 #facebook-icon {
   position: absolute;
-  bottom: 65px;
-  left: calc((100%/2) - 70px);
+  /*width:32px;*/
+  bottom: 15%;
+  left: calc((100%/2) - 40px);
 }
 
 #instagram-icon {
   position: absolute;
-  bottom: 65px;
-  right: calc((100%/2) - 70px);
+  /*width:32px;*/
+  bottom: 15%;
+  right: calc((100%/2) - 40px);
 }
 
 .form-control {
@@ -78,7 +80,6 @@ input {
   display:none;
   color: #fff;
   background-color: #000;
-  /*height: 100vh;*/
   z-index: 1;
 }
 
@@ -87,22 +88,14 @@ input {
   position:absolute;
   font-family: 'Montserrat';
   font-size: 18px;
-  top: 52%;
+  bottom: 30%;
   left: calc((100% - 120px)/2)
 }
 
-.logo {
+/*.logo {
   font-family: 'Montserrat';
   text-align: center;
-}
-
-.logo-text-big {
-  font-size: 42px;
-}
-
-.logo-text-small {
-  font-size: 20px;
-}
+}*/
 
 #logo-main {
   position: absolute;
@@ -111,14 +104,6 @@ input {
   z-index: 2;
 }
 
-
-/* Gradient color1 - color2 - color1 */
-hr.style-one {
-    border: 0;
-    height: 1.25px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
 
 @media (min-width: 380px) {
   #pouring-soon {
