@@ -1,7 +1,7 @@
 html, body {
   height:100%;
   position: flex;
-  background-color: #000;
+  background-color: #231D1E;
   font-family: 'Montserrat';
 }
 
@@ -18,7 +18,7 @@ div .fb-like {
 form.wufoo {
   position: absolute;
   bottom: 10px;
-  left: calc((100% - 309px)/2);
+  left: calc((100% - 301px)/2);
 }
 
 input {
@@ -65,8 +65,8 @@ input {
 }
 #logo-overlay {
   position: fixed;
-  top: calc((60% - 145px)/2);
-  left: calc((100% - 306px)/2);
+  top: 5%;
+  left: 0;
 }
 /*overlay end*/
 
@@ -102,8 +102,8 @@ input {
 
 #logo-main {
   position: absolute;
-  top: calc((60% - 145px)/2);
-  left: calc((100% - 306px)/2);
+  top: 5%;
+  left: 0;
   z-index: 2;
 }
 
@@ -114,4 +114,35 @@ hr.style-one {
     height: 1.25px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+@media(min-width: 415px) {
+  #pouring-soon {
+    font-size: 28px;
+    left: calc((100% - 187px)/2)
+  }
+}
+
+@media (min-width: 600px) {
+  #logo-overlay {
+    /*top: calc((60% - 434px)/2);*/
+    left: calc((100% - 600px)/2);
+  }
+  #logo-main {
+    /*top: calc((60% - 434px)/2);*/
+    left: calc((100% - 600px)/2);
+  }
+
+  #Field1 {
+    width: 275px;
+  }
+
+  form.wufoo {
+    left: calc((100% - 385px)/2);
+  }
+
+  #pouring-soon {
+    font-size: 32px;
+    left: calc((100% - 214px)/2)
+  }
 }
