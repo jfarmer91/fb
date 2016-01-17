@@ -7,14 +7,14 @@ html, body {
 
 #facebook-icon {
   position: absolute;
-  /*width:32px;*/
+  width:32px;
   bottom: 15%;
   left: calc((100%/2) - 40px);
 }
 
 #instagram-icon {
   position: absolute;
-  /*width:32px;*/
+  width:32px;
   bottom: 15%;
   right: calc((100%/2) - 40px);
 }
@@ -140,5 +140,15 @@ input {
   #pouring-soon {
     font-size: 32px;
     left: calc((100% - 214px)/2)
+  }
+
+  #facebook-icon {
+    width: 64px;
+    left: calc((100%/2) - 70px);
+  }
+
+  #instagram-icon {
+    width: 64px;
+    right: calc((100%/2) - 70px);
   }
 }
