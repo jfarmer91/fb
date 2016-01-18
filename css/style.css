@@ -71,7 +71,7 @@ input {
 }
 #logo-overlay {
   position: fixed;
-  top: 5%;
+  top: 0;
   left: 0;
 }
 /*overlay end*/
@@ -99,7 +99,7 @@ input {
 
 #logo-main {
   position: absolute;
-  top: 5%;
+  top: 0;
   left: 0;
   z-index: 2;
 }
@@ -122,11 +122,11 @@ input {
 @media (min-width: 600px) {
   #logo-overlay {
     /*top: calc((60% - 434px)/2);*/
-    left: calc((100% - 516px)/2);
+    left: calc((100% - 865px)/2);
   }
   #logo-main {
     /*top: calc((60% - 434px)/2);*/
-    left: calc((100% - 600px)/2);
+    left: calc((100% - 865px)/2);
   }
 
   #Field2 {
