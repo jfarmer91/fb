@@ -7,7 +7,7 @@
 
   <title>Foam Brewers | pure beer.</title>
 
-  <link rel="shortcut icon" type="image/png" href="img/icon/favicon.JPG"/>
+  <link rel="shortcut icon" type="image/png" href="img/icon/FOAM_ICON_FAVICON.png"/>
 
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
 
@@ -42,17 +42,16 @@
 </head>
 
 <body>
-  <div id="initial-overlay">
+  <!-- <div id="initial-overlay">
     <div id="logo-overlay">
-      <img class="logo" src="img/logo/blackWhite.JPG" width="100%" alt="site-image">
+      <img class="logo" src="img/logo/FOAM_LOGO_BLACK.png" width="100%" alt="site-image">
     </div>
-  </div>
+  </div> -->
 
 
   <div id="body-main">
-
     <div id="logo-main">
-      <img class="logo" src="img/logo/OldLogo.png" width="100%" alt="site-image">
+      <img class="logo" src="img/logo/FOAM_LOGO_COLOR.png" width="100%" alt="site-image">
     </div>
     <h3 id="pouring-soon">pouring soon</h3>
 
@@ -84,10 +83,8 @@
 
 <script>
   $(document).ready(function(){
-    $("#edupont-overlay").ready(function(){
-      $("#initial-overlay").delay(2000).fadeOut(2500, function(){
-        $("#body-main").fadeIn(2000);
-      });
+    $("#body-main").ready(function(){
+      $("#body-main").fadeIn(2000);
     });
   });
 </script>
