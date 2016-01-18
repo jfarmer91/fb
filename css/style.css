@@ -1,9 +1,15 @@
 html {
-  background: url(buckets1.jpg) no-repeat center center fixed;
+  background: url(bricks.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(.25);
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
 }
 
 html, body {
