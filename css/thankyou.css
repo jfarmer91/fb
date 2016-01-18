@@ -1,143 +1,34 @@
-html {
-  background: url(buckets1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  filter: brightness(.25);
-}
-
-
 html, body {
   height:100%;
-  /*position: flex;*/
-  background-color: transparent;
-  font-family: 'Montserrat';
-}
-
-div .fb-like {
-  position:absolute;
-  bottom: 60px;
-  left: calc((100% - 95px)/2);
-}
-
-.form-control {
-  display: inline-block;
-}
-
-form.wufoo {
-  position: absolute;
-  bottom: 10px;
-  left: calc((100% - 301px)/2);
-}
-
-input {
+  position: flex;
   color: #000;
-}
-
-#Field1 {
-  display:inline-block;
-  padding: 6px 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-#foli1 {
-  display: inline-block;
-}
-
-#saveForm {
-  display:inline-block;
-  padding: 6px 10px;
-  background-color: #e5e5e5;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-#submit-button {
-  display: inline-block;
-  /*margin:auto;*/
-}
-
-/*#header h2 {
-  display: none;
-}*/
-.subscribe-desc {
-  color: #b2b2b2;
-}
-
-
-#body-main {
-  color: #fff;
-  background-color: #000;
-  /*height: 100vh;*/
-  z-index: 1;
-}
-
-
-#pouring-soon {
-  position:absolute;
+  background-color: #fff;
   font-family: 'Montserrat';
+}
+
+#thank-you {
+  position:absolute;
   font-size: 24px;
   top: 60%;
   left: calc((100% - 120px)/2)
 }
 
-.logo {
-  font-family: 'Montserrat';
-  text-align: center;
-}
-
-.logo-text-big {
-  font-size: 42px;
-}
-
-.logo-text-small {
-  font-size: 20px;
-}
-
-#logo-main {
+#logo-glass {
   position: absolute;
-  top: 5%;
-  left: 0;
+  top: 35%;
+  left: calc((100% - 50px)/2);
   z-index: 2;
 }
 
-
-/* Gradient color1 - color2 - color1 */
-hr.style-one {
-    border: 0;
-    height: 1.25px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
 @media(min-width: 415px) {
-  #pouring-soon {
+  #thank-you {
     font-size: 28px;
     left: calc((100% - 141px)/2)
   }
 }
 
 @media (min-width: 600px) {
-  #logo-overlay {
-    /*top: calc((60% - 434px)/2);*/
-    left: calc((100% - 600px)/2);
-  }
-  #logo-main {
-    /*top: calc((60% - 434px)/2);*/
-    left: calc((100% - 600px)/2);
-  }
-
-  #Field1 {
-    width: 275px;
-  }
-
-  form.wufoo {
-    left: calc((100% - 385px)/2);
-  }
-
-  #pouring-soon {
+  #thank-you {
     font-size: 32px;
     left: calc((100% - 161px)/2)
   }
