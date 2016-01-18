@@ -1,10 +1,19 @@
 html {
-  background: url(bricks.jpg) no-repeat center center fixed;
+  background: url(bricks800.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*filter: brightness(.25);*/
+}
+
+@media (min-width: 800px) {
+  html {
+    background: url(bricks.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .hide {
