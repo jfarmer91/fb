@@ -42,15 +42,14 @@
 </head>
 
 <body>
-  <div id="initial-overlay">
+  <!-- <div id="initial-overlay">
     <div id="logo-overlay">
       <img class="logo" src="img/logo/FOAM_LOGO_BLACK.png" width="100%" alt="site-image">
     </div>
-  </div>
+  </div> -->
 
 
   <div id="body-main">
-
     <div id="logo-main">
       <img class="logo" src="img/logo/FOAM_LOGO_COLOR.png" width="100%" alt="site-image">
     </div>
@@ -84,10 +83,8 @@
 
 <script>
   $(document).ready(function(){
-    $("#edupont-overlay").ready(function(){
-      $("#initial-overlay").delay(2000).fadeOut(2500, function(){
-        $("#body-main").fadeIn(2000);
-      });
+    $("#body-main").ready(function(){
+      $("#body-main").fadeIn(2000);
     });
   });
 </script>
