@@ -50,7 +50,7 @@ input {
 #Field2 {
   display:inline-block;
   padding: 6px 10px;
-  width: 150px;
+  width: 207px;
   border-radius: 4px;
   border: 1px solid #ccc;
 }
@@ -108,7 +108,7 @@ input {
   }
 
   #Field2 {
-    width: 190px;
+    width: 247px;
   }
 
   form.wufoo {
@@ -131,7 +131,7 @@ input {
   }
 
   #Field2 {
-    width: 275px;
+    width: 332px;
   }
 
   form.wufoo {
@@ -175,5 +175,13 @@ input {
   #pouring-soon {
     font-size: 24px;
     left: calc((100% - 170px)/2)
+  }
+
+  #Field2 {
+    width: 332px;
+  }
+
+  form.wufoo {
+    left: calc((100% - 385px)/2);
   }
 }
