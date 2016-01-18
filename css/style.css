@@ -4,7 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: brightness(.25);
+  /*filter: brightness(.25);*/
 }
 
 .hide {
@@ -76,21 +76,6 @@ input {
   color: #b2b2b2;
 }
 
-/*overlay start*/
-#initial-overlay {
-  display:block;
-  color: #000;
-  background-color: #fff;
-  height: 100vh;
-  z-index: 1000;
-}
-#logo-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-/*overlay end*/
-
 #body-main {
   display:none;
   color: #fff;
@@ -98,19 +83,14 @@ input {
   z-index: 1;
 }
 
-
 #pouring-soon {
   position:absolute;
   font-family: 'Montserrat';
   font-size: 18px;
-  bottom: 30%;
+  bottom: 25%;
   left: calc((100% - 120px)/2)
 }
 
-/*.logo {
-  font-family: 'Montserrat';
-  text-align: center;
-}*/
 
 #logo-main {
   position: absolute;
@@ -120,7 +100,7 @@ input {
 }
 
 
-@media (min-width: 380px) {
+@media (orientation: portrait) and (min-width: 380px) {
   #pouring-soon {
     font-size: 24px;
     left: calc((100% - 160px)/2)
@@ -136,14 +116,14 @@ input {
 
 }
 
-@media(min-width: 415px) {
+@media (orientation: portrait) and (min-width: 415px) {
   #pouring-soon {
     font-size: 28px;
     left: calc((100% - 187px)/2)
   }
 }
 
-@media (min-width: 600px) {
+@media (orientation: portrait) and (min-width: 600px) {
   #logo-main {
     /*top: calc((100% - 960px)/4);*/
     /*left: calc((100% - 960px)/2);*/
@@ -173,9 +153,24 @@ input {
   }
 }
 
-@media (min-width: 960px) {
+@media (orientation: portrait) and (min-width: 960px) {
   #logo-main {
     top: -140px;
     left: calc(((100% - 960px)/2) - 9px);
+  }
+}
+
+@media (orientation: landscape) {
+  .logo {
+    /*display: block;*/
+    /*position: absolute;*/
+    width: 90vh;
+    /*left: calc(50%);*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+  }
+
+  #logo-main {
+    left: calc((100% - 90vh)/2);
   }
 }
